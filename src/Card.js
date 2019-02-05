@@ -5,7 +5,7 @@ class Card extends Component {
   render() {
     console.log(this.props);
     return (
-      <div class="Card">
+      <div className="Card">
             <h3>{this.props.title}</h3>
             <p>{this.props.content}</p>
           </div>
