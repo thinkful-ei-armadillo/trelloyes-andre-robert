@@ -12,7 +12,7 @@ class App extends Component {
         return this.props.allCards[id];
       });
 
-      return <List header={list.header} cards={cards} index=""></List>;
+      return <List key = {index} header={list.header} cards={cards} ></List>;
     });
 
     return (
